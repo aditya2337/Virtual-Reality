@@ -25,7 +25,7 @@ export default class firstVr extends React.Component {
             textAlignVertical: 'center',
             transform: [{translate: [0, 0, -3]}],
           }}>
-          hello
+          Portfolio of aditya
         </Text>
       </View>
     );
