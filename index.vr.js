@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'react'
 import {
   AppRegistry,
   asset,
   StyleSheet,
   Pano,
   Text,
-  View,
-} from 'react-vr';
+  View
+} from 'react-vr'
 
 export default class firstVr extends React.Component {
-  render() {
+  render () {
     return (
       <View>
-        <Pano source={asset('chess-world.jpg')}/>
+        <Pano source={asset('vrImage.jpg')} />
         <Text
           style={{
             backgroundColor: '#777879',
@@ -23,13 +23,13 @@ export default class firstVr extends React.Component {
             paddingRight: 0.2,
             textAlign: 'center',
             textAlignVertical: 'center',
-            transform: [{translate: [0, 0, -3]}],
+            transform: [{translate: [0, 0, -3]}]
           }}>
           Portfolio of aditya
         </Text>
       </View>
-    );
+    )
   }
 };
 
-AppRegistry.registerComponent('firstVr', () => firstVr);
+AppRegistry.registerComponent('firstVr', () => firstVr)
