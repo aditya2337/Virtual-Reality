@@ -17,7 +17,7 @@ export default class firstVr extends React.Component {
           style={{
             backgroundColor: '#777879',
             fontSize: 0.8,
-            fontWeight: '100',
+            fontWeight: '400',
             layoutOrigin: [0.5, 0.5],
             paddingLeft: 0.2,
             paddingRight: 0.2,
